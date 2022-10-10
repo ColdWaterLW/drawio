@@ -1,1 +1,210 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T09:06:06.201Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="32xicKSogwHfX55oBOm-" version="20.4.0" type="github"><diagram id="mYVRujsw0kvANxDBXX0q" name="Page-1">7Vtbk5s2FP41mmkfkgFdQHoEm00f0pl0dqZp+kbXqk0GWy7Ga7u/vpIQtrmEVeLYwt08LecgYfjOp3OTFqDJcv+uSNeLX8WM5wB6sz1AUwChj2Eg/yjNodKEyCjmRTarVN5J8Zj9y83MWrvNZnxjdJWqFCIvs3VT+SRWK/5UNnRpUYhdc9jfIp81FOt0zjuKx6c072o/ZrNyUWkp8U76X3g2X9S/7HvmzjKtBxvFZpHOxO5MhRKAJoUQZXW13E94rsBr4vLwhbvHFyv4qrSZEB7e7P/M4nQhPgaP7J9sFT/jNzXMm/JQfzGfSQCMKIpyIeZilebJSRsXYruacfVYT0qnMe+FWEulL5WfeVkejDXTbSmkalEuc3NXvnFx+EPNf0tq8ZN5nBam+4Z0MFL1ruoFv4iBUW3EtnjiQx9uuJQWc14OjENHS0mKc7Hk8n3kvILnaZk9N98jNVybH8eZqVFRpIezAWuRrcrN2ZM/KIUcYJYNYrR64qFeDGHTtK3xEMGh8fKieoNaOvuUk0rT5Wuo47ugjgMKkAspcGaGb0AZvhKUw3tYaCTEt19oGP/w0YPUwXfhpMM6Z7ipk65+8jnNtwYGkGAQT0H8AJIQMAwims6W2UpLDMQxSIi6z8jjb++TDvGatNotspI/rlNtxZ1MAPu8yDMvSr4fJkPXdjXIsAkyNuLulIv52OC6OMvDat1398eoB1ACKAWsQi4GcaSwjBIQ+RpUD9DgiDVIAjU4Dpfzohs/b42uH7TyhpqizuAlVvAGiqoS4YQB6gEWdeHdbrjEN0HqPvWVBBsSakhdB+ua5+4t4Qd3nniEltHDd5rfhZb+pElvpZG3KJ5LxNfuHQnxWnmRe/r2eZJAQVeFOBqByOvzBBX6sWeQTR5APAF0AhIKImkGqC6oDJS1nZRz1xdRrEOrnBtNk9+PT51K+43NPBIz1+ZhLrzLGHJaa7dEXbolv88vtRNHncOMNG8kpMF4FLh2SIg6ZjwKWYPzbz3yAu219IEXmUSAF1dYC9RyLSCv39jXLfAwbHIIM3LOgs545qGh8dcp8NCrdaS25IF3QR5IwtuTp8bwheyTqVI2ZtrVx7LuWhfis/ucs+3iMXLdG4D3XjLVW1UvrymnNRN0E0r3WXnm8qT06ezOyeEpwam/u7STfpFtMHw1awC6iCvtOEHocNeZkaHh1wkrNYSDtXc3rOi+ngw6nm5zTI1GBiDW3aS+eaeUtmB3XkFD+M0gx/KuLtwiCmisNPJCdasl/lWBR9SUODBtJuYrjZzLepKBMVutlYMFvnOj2XSl+jDWzSdad6dkwf3/NVp7qbm3GkJO8g33NRa0bVahS2PhZTnHaz3EZG8f7CJXadfAhNLBXIUwNDT+Sqcr7v0Ykz0JgnGQgA2SIAz8ofFXylj72t12yZQKx54aIwMu6xamrrsi7hNV1FcNhGpXjQUqsYkTnat0sa02FqYaW09lKcoQaofBOci0dZSHIOe7CzbVgDkUMbCjebZ/6RrjNpFHkAZiS4yhFcZj2BeGaGwYBxYYj+TQQ8D8kaGH7U6ntTlZiJyPAE7aOh/p/AwJDjug3FdqiI0LffkE7aWp4WU493VF2ocNdPD6SUamnwEMcvkx8V+FvJqrqzs5hBAS5JrRTnaLvyejA1tGOz0+g/vCGFV0rhwxJSAi1TaqYmwopVN2q8hMdPLAVGsvgqMjMnWe72K7nesutsfETB8dprqRSmW9wbTHibUPCVSnlT70NVKxeqw68mfTRQ/VFNW0HW+ztW1Z5vmWlv36pSPF0387VpX76X9GUfIf</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-10T05:55:56.417Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="03EsVXeTMOnlmj3srmHu" version="20.4.0" type="github">
+  <diagram id="mYVRujsw0kvANxDBXX0q" name="Page-1">
+    <mxGraphModel dx="1426" dy="1836" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-28" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;dashed=1;strokeColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="292.5" y="382.5" width="221" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7y-xZiBahoW6S9qinBv4-1" target="7y-xZiBahoW6S9qinBv4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-1" value="使用admin登录SQLE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="273" y="-385" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7y-xZiBahoW6S9qinBv4-3" target="7y-xZiBahoW6S9qinBv4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-3" value="创建管理用户mgr1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="273" y="-311" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7y-xZiBahoW6S9qinBv4-5" target="7y-xZiBahoW6S9qinBv4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-5" value="创建普通用户user1、user2、user3、user4" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="273" y="-237" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7y-xZiBahoW6S9qinBv4-7" target="7y-xZiBahoW6S9qinBv4-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-7" value="创建用户组group1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="273" y="-163" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-15" value="添加user3、user4到group1，角色分别为DEV、DBA" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="273" y="-89" width="140" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7y-xZiBahoW6S9qinBv4-17" target="7y-xZiBahoW6S9qinBv4-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-17" value="使用mgr1(或admin)&lt;br&gt;登录SQLE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="333" y="48" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7y-xZiBahoW6S9qinBv4-18" target="7y-xZiBahoW6S9qinBv4-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-18" value="创建项目proj1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="333" y="119" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7y-xZiBahoW6S9qinBv4-20" target="7y-xZiBahoW6S9qinBv4-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-20" value="添加项目数据源" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="333" y="188" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7y-xZiBahoW6S9qinBv4-22" target="7y-xZiBahoW6S9qinBv4-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-22" value="添加项目流程模板并绑定项目数据源" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="333" y="258" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7y-xZiBahoW6S9qinBv4-25" target="7y-xZiBahoW6S9qinBv4-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-25" value="添加项目规则模板并绑定项目数据源" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="333" y="328" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-30" value="编辑项目白名单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="333" y="610" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7y-xZiBahoW6S9qinBv4-32" target="7y-xZiBahoW6S9qinBv4-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-32" value="添加user1，角色为DEV" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="333" y="397" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7y-xZiBahoW6S9qinBv4-34" target="7y-xZiBahoW6S9qinBv4-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-34" value="添加user2，角色为DBA" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="333" y="465" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7y-xZiBahoW6S9qinBv4-36" target="7y-xZiBahoW6S9qinBv4-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-36" value="添加group1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="333" y="536" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7y-xZiBahoW6S9qinBv4-45" target="7y-xZiBahoW6S9qinBv4-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-45" value="使用user1(DEV)&lt;br&gt;登录SQLE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="243" y="1159" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7y-xZiBahoW6S9qinBv4-46" target="7y-xZiBahoW6S9qinBv4-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-46" value="进入proj1工单界面" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="243" y="1236" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7y-xZiBahoW6S9qinBv4-48" target="mYt-dQ_EKpgAcm44ap4p-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7y-xZiBahoW6S9qinBv4-48" value="创建工单，选择任意绑定了流程模板的数据源" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="243" y="1307" width="140" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mYt-dQ_EKpgAcm44ap4p-1" target="mYt-dQ_EKpgAcm44ap4p-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-1" value="输入SQL语句" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="243" y="1383" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-3" value="成功创建工单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="243" y="1646" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-7" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mYt-dQ_EKpgAcm44ap4p-5" target="mYt-dQ_EKpgAcm44ap4p-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-9" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mYt-dQ_EKpgAcm44ap4p-5" target="mYt-dQ_EKpgAcm44ap4p-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-5" value="SQL是否在白名单中" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="244" y="1454" width="138" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mYt-dQ_EKpgAcm44ap4p-8" target="mYt-dQ_EKpgAcm44ap4p-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-8" value="自动审核" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="436" y="1463.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mYt-dQ_EKpgAcm44ap4p-10" target="mYt-dQ_EKpgAcm44ap4p-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-13" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mYt-dQ_EKpgAcm44ap4p-12">
+          <mxGeometry x="-0.1815" y="-2" relative="1" as="geometry">
+            <mxPoint x="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mYt-dQ_EKpgAcm44ap4p-10" target="mYt-dQ_EKpgAcm44ap4p-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="645" y="1569" />
+              <mxPoint x="645" y="1403" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-15" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mYt-dQ_EKpgAcm44ap4p-14">
+          <mxGeometry x="-0.2965" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-10" value="是否审核通过" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="437" y="1539" width="138" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-29" value="添加项目成员" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="517" y="445" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mYt-dQ_EKpgAcm44ap4p-33" target="mYt-dQ_EKpgAcm44ap4p-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-33" value="使用user2(DBA)&lt;br&gt;登录SQLE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="243" y="1776" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mYt-dQ_EKpgAcm44ap4p-34" target="mYt-dQ_EKpgAcm44ap4p-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-34" value="进入proj1工单列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="243" y="1847" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mYt-dQ_EKpgAcm44ap4p-36" target="mYt-dQ_EKpgAcm44ap4p-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-36" value="看到等待自己审核的工单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="243" y="1918" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-38" value="审核通过或驳回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="243" y="1989" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mYt-dQ_EKpgAcm44ap4p-41" target="mYt-dQ_EKpgAcm44ap4p-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-41" value="使用user1(DEV)&lt;br&gt;登录SQLE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="2252" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mYt-dQ_EKpgAcm44ap4p-43" target="mYt-dQ_EKpgAcm44ap4p-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-43" value="进入proj1智能扫描界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="2329" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mYt-dQ_EKpgAcm44ap4p-45" target="mYt-dQ_EKpgAcm44ap4p-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-45" value="创建扫描任务，选择项目下的任意数据源" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="2400" width="140" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mYt-dQ_EKpgAcm44ap4p-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="229" y="2547" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-47" value="选择任务类型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="2476" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mYt-dQ_EKpgAcm44ap4p-48" value="创建扫描任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="2547" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
