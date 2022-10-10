@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T05:55:56.417Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="03EsVXeTMOnlmj3srmHu" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-10T09:13:01.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vgiW5yVIgfHnAOWsOpax" version="20.4.0" type="github">
   <diagram id="mYVRujsw0kvANxDBXX0q" name="Page-1">
     <mxGraphModel dx="1426" dy="1836" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="7y-xZiBahoW6S9qinBv4-7" value="创建用户组group1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="273" y="-163" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7y-xZiBahoW6S9qinBv4-15" value="添加user3、user4到group1，角色分别为DEV、DBA" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="7y-xZiBahoW6S9qinBv4-15" value="添加user3、user4到group1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="273" y="-89" width="140" height="47" as="geometry" />
         </mxCell>
         <mxCell id="7y-xZiBahoW6S9qinBv4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7y-xZiBahoW6S9qinBv4-17" target="7y-xZiBahoW6S9qinBv4-18" edge="1">
@@ -82,7 +82,7 @@
         <mxCell id="mYt-dQ_EKpgAcm44ap4p-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7y-xZiBahoW6S9qinBv4-36" target="7y-xZiBahoW6S9qinBv4-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7y-xZiBahoW6S9qinBv4-36" value="添加group1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="7y-xZiBahoW6S9qinBv4-36" value="添加group1，角色为DEV" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="333" y="536" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7y-xZiBahoW6S9qinBv4-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7y-xZiBahoW6S9qinBv4-45" target="7y-xZiBahoW6S9qinBv4-46" edge="1">
