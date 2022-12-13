@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T08:14:48.750Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="gjo6jJa_5Qz_2dLGeNmd" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-13T09:49:25.603Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="VieOMEwPiNaTMI5hPPSf" version="20.6.2" type="github">
   <diagram id="llpC3SKRFSKCU_hGXX-q" name="Page-1">
-    <mxGraphModel dx="1826" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1106" dy="531" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,7 +25,7 @@
         <mxCell id="llwPnY5wQLyXFv28bDHs-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-4" target="llwPnY5wQLyXFv28bDHs-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="llwPnY5wQLyXFv28bDHs-4" value="将审核规则保存到数据库" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="llwPnY5wQLyXFv28bDHs-4" value="将审核规则保存到rules表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="140" y="270" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-6" target="llwPnY5wQLyXFv28bDHs-2" edge="1">
@@ -37,53 +37,53 @@
         <mxCell id="llwPnY5wQLyXFv28bDHs-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="llwPnY5wQLyXFv28bDHs-11" target="llwPnY5wQLyXFv28bDHs-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="llwPnY5wQLyXFv28bDHs-11" value="创建默认规则模板" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="350" width="120" height="51" as="geometry" />
+        <mxCell id="llwPnY5wQLyXFv28bDHs-11" value="创建默认规则模板，&lt;br&gt;写表：&lt;br&gt;rule_templates、&lt;br&gt;rule_template_rule" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="140" y="350" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="llwPnY5wQLyXFv28bDHs-14" target="llwPnY5wQLyXFv28bDHs-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="llwPnY5wQLyXFv28bDHs-14" value="创建admin用户" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="139.5" y="441" width="120" height="50" as="geometry" />
+        <mxCell id="llwPnY5wQLyXFv28bDHs-14" value="创建admin用户，&lt;br&gt;写表：users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="140" y="450" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="llwPnY5wQLyXFv28bDHs-16" target="llwPnY5wQLyXFv28bDHs-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="llwPnY5wQLyXFv28bDHs-16" value="创建默认项目（会创建默认流程模板，项目管理员为admin）" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="110" y="530" width="180" height="73" as="geometry" />
+        <mxCell id="llwPnY5wQLyXFv28bDHs-16" value="创建默认项目（会创建默认流程模板，项目管理员为admin），&lt;br&gt;写表：&lt;br&gt;workflow_templates、&lt;br&gt;workflow_step_templates、&lt;br&gt;workflow_step_template_user、&lt;br&gt;projects、&lt;br&gt;project_manager、&lt;br&gt;project_user" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" parent="1" vertex="1">
+          <mxGeometry x="110" y="530" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="llwPnY5wQLyXFv28bDHs-18" target="llwPnY5wQLyXFv28bDHs-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="llwPnY5wQLyXFv28bDHs-18" value="创建默认角色" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="139.5" y="640" width="120" height="46" as="geometry" />
+        <mxCell id="llwPnY5wQLyXFv28bDHs-18" value="创建默认角色，&lt;br&gt;写表：&lt;br&gt;roles、&lt;br&gt;role_operations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="140" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="llwPnY5wQLyXFv28bDHs-20" target="llwPnY5wQLyXFv28bDHs-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-20" value="启动task处理协程" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="139.5" y="719" width="120" height="50" as="geometry" />
+          <mxGeometry x="140" y="800" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="llwPnY5wQLyXFv28bDHs-22" target="llwPnY5wQLyXFv28bDHs-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-22" value="启动工单、task清理协程" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="139.5" y="799" width="120" height="50" as="geometry" />
+          <mxGeometry x="140" y="880" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="llwPnY5wQLyXFv28bDHs-24" target="llwPnY5wQLyXFv28bDHs-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-24" value="启动智能扫描处理协程" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="139.5" y="879" width="120" height="50" as="geometry" />
+          <mxGeometry x="140" y="960" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="llwPnY5wQLyXFv28bDHs-26" target="llwPnY5wQLyXFv28bDHs-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-26" value="开启HTTP服务，对外提供开放接口" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="139.5" y="959" width="120" height="50" as="geometry" />
+          <mxGeometry x="140" y="1040" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-28" value="监听退出信号" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="149.5" y="1039" width="100" height="40" as="geometry" />
+          <mxGeometry x="150" y="1120" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-30" value="&lt;h1&gt;sqle启动流程&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="346" y="88" width="190" height="120" as="geometry" />
@@ -119,7 +119,7 @@
           <mxGeometry x="131.5" y="1360" width="137" height="75" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-39" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="150" y="1806" width="100" height="40" as="geometry" />
+          <mxGeometry x="150" y="1844" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="llwPnY5wQLyXFv28bDHs-43" target="llwPnY5wQLyXFv28bDHs-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -156,8 +156,8 @@
         <mxCell id="llwPnY5wQLyXFv28bDHs-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="llwPnY5wQLyXFv28bDHs-47" target="llwPnY5wQLyXFv28bDHs-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="llwPnY5wQLyXFv28bDHs-47" value="保存用户信息到数据库" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="123.5" y="1700" width="153" height="51" as="geometry" />
+        <mxCell id="llwPnY5wQLyXFv28bDHs-47" value="创建用户，&lt;br&gt;写表：&lt;br&gt;users、&lt;br&gt;user_group_users、&lt;br&gt;management_permissions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="123.5" y="1700" width="153" height="90" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-50" target="llwPnY5wQLyXFv28bDHs-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -186,7 +186,7 @@
           <mxGeometry x="131.5" y="2593" width="137" height="75" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-65" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="150" y="2923" width="100" height="40" as="geometry" />
+          <mxGeometry x="150" y="2940" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-64" target="llwPnY5wQLyXFv28bDHs-73" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -222,8 +222,8 @@
         <mxCell id="llwPnY5wQLyXFv28bDHs-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="llwPnY5wQLyXFv28bDHs-75" target="llwPnY5wQLyXFv28bDHs-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="llwPnY5wQLyXFv28bDHs-75" value="保存角色信息到数据库" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="123.5" y="2825" width="153" height="52" as="geometry" />
+        <mxCell id="llwPnY5wQLyXFv28bDHs-75" value="创建角色，&lt;br&gt;写表：&lt;br&gt;roles、&lt;br&gt;role_operations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="123.5" y="2825" width="153" height="68" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-77" target="llwPnY5wQLyXFv28bDHs-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -249,7 +249,7 @@
           <mxGeometry x="108" y="2039" width="137" height="75" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-83" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="126.5" y="2376" width="100" height="40" as="geometry" />
+          <mxGeometry x="126.5" y="2386" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-82" target="llwPnY5wQLyXFv28bDHs-90" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -285,8 +285,8 @@
         <mxCell id="llwPnY5wQLyXFv28bDHs-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="llwPnY5wQLyXFv28bDHs-92" target="llwPnY5wQLyXFv28bDHs-83" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="llwPnY5wQLyXFv28bDHs-92" value="保存用户组信息到数据库" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="2271" width="153" height="48" as="geometry" />
+        <mxCell id="llwPnY5wQLyXFv28bDHs-92" value="创建用户组，&lt;br&gt;写表：&lt;br&gt;user_groups、&lt;br&gt;user_group_users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="100" y="2271" width="153" height="68" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-94" target="llwPnY5wQLyXFv28bDHs-83" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -329,7 +329,7 @@
           <mxGeometry x="378" y="3617" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-100" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="151.18" y="3715" width="100" height="40" as="geometry" />
+          <mxGeometry x="151.75" y="3846" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-104" target="llwPnY5wQLyXFv28bDHs-99" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -353,8 +353,8 @@
         <mxCell id="llwPnY5wQLyXFv28bDHs-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-109" target="llwPnY5wQLyXFv28bDHs-100" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="llwPnY5wQLyXFv28bDHs-109" value="保存项目新到到数据库（会创建默认流程模板，项目管理员为当前用户）" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="111.75" y="3617" width="180" height="51" as="geometry" />
+        <mxCell id="llwPnY5wQLyXFv28bDHs-109" value="创建项目（会创建默认流程模板，项目管理员为当前用户），&lt;br&gt;写表：&lt;br&gt;workflow_templates、&lt;br&gt;workflow_step_templates、&lt;br&gt;workflow_step_template_user、&lt;br&gt;projects、&lt;br&gt;project_manager、&lt;br&gt;project_user" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" parent="1" vertex="1">
+          <mxGeometry x="111.75" y="3617" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-114" value="&lt;h1&gt;项目&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="628.25" y="4201" width="190" height="120" as="geometry" />
@@ -391,7 +391,7 @@
           <mxGeometry x="370" y="4763" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-124" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="143.75" y="4882" width="100" height="40" as="geometry" />
+          <mxGeometry x="143.75" y="4918" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-129" target="llwPnY5wQLyXFv28bDHs-123" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -417,8 +417,8 @@
         <mxCell id="llwPnY5wQLyXFv28bDHs-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-131" target="llwPnY5wQLyXFv28bDHs-124" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="llwPnY5wQLyXFv28bDHs-131" value="保存数据源信息到数据库" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="103.75" y="4763" width="180" height="53" as="geometry" />
+        <mxCell id="llwPnY5wQLyXFv28bDHs-131" value="创建数据源，&lt;br&gt;写表：&lt;br&gt;instances、&lt;br&gt;instance_rule_template" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" parent="1" vertex="1">
+          <mxGeometry x="103.75" y="4763" width="180" height="91" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="llwPnY5wQLyXFv28bDHs-132" target="llwPnY5wQLyXFv28bDHs-136" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -496,7 +496,7 @@
           <mxGeometry x="353.75" y="5893" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-151" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="139.76" y="5991" width="100" height="40" as="geometry" />
+          <mxGeometry x="139.76" y="6054" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-156" target="llwPnY5wQLyXFv28bDHs-150" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -520,8 +520,8 @@
         <mxCell id="llwPnY5wQLyXFv28bDHs-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-158" target="llwPnY5wQLyXFv28bDHs-151" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="llwPnY5wQLyXFv28bDHs-158" value="添加成员信息到数据库" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="99.75" y="5893" width="180" height="51" as="geometry" />
+        <mxCell id="llwPnY5wQLyXFv28bDHs-158" value="添加成员，&lt;br&gt;写表：&lt;br&gt;project_user、&lt;br&gt;project_manager(如果设置为项目管理员)、&lt;br&gt;project_member_roles" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" parent="1" vertex="1">
+          <mxGeometry x="99.75" y="5893" width="180" height="91" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-159" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-160" target="llwPnY5wQLyXFv28bDHs-163" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -617,7 +617,7 @@
           <mxGeometry x="357.75" y="7185" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-194" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="143.76" y="7283" width="100" height="40" as="geometry" />
+          <mxGeometry x="143.76" y="7346" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-199" target="llwPnY5wQLyXFv28bDHs-193" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -641,8 +641,8 @@
         <mxCell id="llwPnY5wQLyXFv28bDHs-200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-201" target="llwPnY5wQLyXFv28bDHs-194" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="llwPnY5wQLyXFv28bDHs-201" value="添加成员信息到数据库" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="103.75" y="7185" width="180" height="53" as="geometry" />
+        <mxCell id="llwPnY5wQLyXFv28bDHs-201" value="添加成员，&lt;br&gt;写表：&lt;br&gt;project_user_group、&lt;br&gt;project_member_group_roles" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" parent="1" vertex="1">
+          <mxGeometry x="103.75" y="7185" width="180" height="91" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-202" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-206" target="llwPnY5wQLyXFv28bDHs-211" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -738,7 +738,7 @@
           <mxGeometry x="355.75" y="8550" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-226" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="136.13" y="8648" width="100" height="40" as="geometry" />
+          <mxGeometry x="136.26" y="8711" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-227" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-231" target="llwPnY5wQLyXFv28bDHs-225" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -762,8 +762,8 @@
         <mxCell id="llwPnY5wQLyXFv28bDHs-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-233" target="llwPnY5wQLyXFv28bDHs-226" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="llwPnY5wQLyXFv28bDHs-233" value="添加规则模板信息到数据库" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="96.13" y="8550" width="180" height="50" as="geometry" />
+        <mxCell id="llwPnY5wQLyXFv28bDHs-233" value="添加规则模板，&lt;br&gt;写表：&lt;br&gt;rule_templates、&lt;br&gt;rule_template_rule、&lt;br&gt;instance_rule_template" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96.13" y="8550" width="180" height="91" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-234" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-238" target="llwPnY5wQLyXFv28bDHs-243" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -875,7 +875,7 @@
           <mxGeometry x="353.12" y="9150" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-265" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="133.5" y="9252" width="100" height="40" as="geometry" />
+          <mxGeometry x="133.5" y="9281" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-266" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-270" target="llwPnY5wQLyXFv28bDHs-264" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -906,8 +906,8 @@
         <mxCell id="llwPnY5wQLyXFv28bDHs-271" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-272" target="llwPnY5wQLyXFv28bDHs-265" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="llwPnY5wQLyXFv28bDHs-272" value="添加白名单信息到数据库" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="93.5" y="9150" width="180" height="51" as="geometry" />
+        <mxCell id="llwPnY5wQLyXFv28bDHs-272" value="添加规则模板，&lt;br&gt;写表：&lt;br&gt;sql_whitelist" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" parent="1" vertex="1">
+          <mxGeometry x="93.5" y="9150" width="180" height="73" as="geometry" />
         </mxCell>
         <mxCell id="llwPnY5wQLyXFv28bDHs-294" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="llwPnY5wQLyXFv28bDHs-293" target="llwPnY5wQLyXFv28bDHs-132" edge="1">
           <mxGeometry relative="1" as="geometry" />
