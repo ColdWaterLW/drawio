@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T06:35:40.158Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="gMgmOCw4h6nd3xyP17cP" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-30T06:17:06.164Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="zom73sB1I8DcZVlkXoBd" version="21.5.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2261" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="700" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NiO2a6P107iIoU8TIjGj-2" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="NiO2a6P107iIoU8TIjGj-2" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="82" y="120" width="530" height="830" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-19" value="SQL审核平台" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;container=0;" parent="NiO2a6P107iIoU8TIjGj-2" vertex="1">
@@ -111,7 +111,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NiO2a6P107iIoU8TIjGj-3" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="NiO2a6P107iIoU8TIjGj-3" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-583" y="581" width="530" height="461" as="geometry" />
         </mxCell>
         <mxCell id="M04j6I-K82CPBCqGaL6e-5" value="输出标准审核结果" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="NiO2a6P107iIoU8TIjGj-3" vertex="1">
@@ -122,7 +122,7 @@
             <mxPoint x="351" y="346" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M04j6I-K82CPBCqGaL6e-9" value="编写SQL审核规则" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="NiO2a6P107iIoU8TIjGj-3" vertex="1">
+        <mxCell id="M04j6I-K82CPBCqGaL6e-9" value="&lt;font face=&quot;宋体&quot;&gt;使用DSL编写审核算法&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="NiO2a6P107iIoU8TIjGj-3" vertex="1">
           <mxGeometry x="286" y="40" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M04j6I-K82CPBCqGaL6e-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="NiO2a6P107iIoU8TIjGj-3" source="M04j6I-K82CPBCqGaL6e-9" target="M04j6I-K82CPBCqGaL6e-3" edge="1">
@@ -187,8 +187,77 @@
             <mxRectangle x="-440" y="1160" width="32" height="78" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NiO2a6P107iIoU8TIjGj-1" value="SQL审核平台" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;container=0;" vertex="1" parent="NiO2a6P107iIoU8TIjGj-3">
+        <mxCell id="NiO2a6P107iIoU8TIjGj-1" value="SQL审核平台" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;container=0;" parent="NiO2a6P107iIoU8TIjGj-3" vertex="1">
           <mxGeometry width="530" height="461" as="geometry" />
+        </mxCell>
+        <mxCell id="xR0je1iEGJdjVl_nzKtv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xR0je1iEGJdjVl_nzKtv-5" target="xR0je1iEGJdjVl_nzKtv-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xR0je1iEGJdjVl_nzKtv-5" value="语法解析器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-649.5" y="1508" width="211" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="xR0je1iEGJdjVl_nzKtv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xR0je1iEGJdjVl_nzKtv-7" target="xR0je1iEGJdjVl_nzKtv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xR0je1iEGJdjVl_nzKtv-7" value="待审核SQL" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-604" y="1410" width="121" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="xR0je1iEGJdjVl_nzKtv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xR0je1iEGJdjVl_nzKtv-9" target="xR0je1iEGJdjVl_nzKtv-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xR0je1iEGJdjVl_nzKtv-9" value="JSON格式的语法树" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-615.75" y="1650" width="144.5" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="xR0je1iEGJdjVl_nzKtv-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-779.75" y="1749" width="471.5" height="347" as="geometry" />
+        </mxCell>
+        <mxCell id="xR0je1iEGJdjVl_nzKtv-13" value="DSL编写的审核规则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="1754" width="118" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xR0je1iEGJdjVl_nzKtv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xR0je1iEGJdjVl_nzKtv-14" target="xR0je1iEGJdjVl_nzKtv-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xR0je1iEGJdjVl_nzKtv-14" value="从语法树中提取SQL特征" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-604" y="1784" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xR0je1iEGJdjVl_nzKtv-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xR0je1iEGJdjVl_nzKtv-15" target="xR0je1iEGJdjVl_nzKtv-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xR0je1iEGJdjVl_nzKtv-15" value="对特征进行运算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-604" y="1883" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xR0je1iEGJdjVl_nzKtv-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xR0je1iEGJdjVl_nzKtv-18" target="xR0je1iEGJdjVl_nzKtv-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-689" y="2019" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xR0je1iEGJdjVl_nzKtv-27" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xR0je1iEGJdjVl_nzKtv-23">
+          <mxGeometry x="0.1371" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xR0je1iEGJdjVl_nzKtv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xR0je1iEGJdjVl_nzKtv-18" target="xR0je1iEGJdjVl_nzKtv-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-405" y="2019" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xR0je1iEGJdjVl_nzKtv-28" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xR0je1iEGJdjVl_nzKtv-26">
+          <mxGeometry x="-0.1503" relative="1" as="geometry">
+            <mxPoint y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xR0je1iEGJdjVl_nzKtv-18" value="是否符合审核规则？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-623" y="1982" width="158" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="xR0je1iEGJdjVl_nzKtv-20" value="输出：&lt;br&gt;审核通过的信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-743" y="2129" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xR0je1iEGJdjVl_nzKtv-21" value="输出：&lt;br&gt;1.审核不通过的信息&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.审核规则详细信息&lt;br&gt;3.修改建议&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-465.5" y="2132" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
